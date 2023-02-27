@@ -23,5 +23,7 @@ from Zardbootstapdjango import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='my-index'),
+    path('components/',views.components, name= 'my-components')
+
 
 ]
